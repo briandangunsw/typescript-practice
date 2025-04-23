@@ -3,6 +3,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@types/es6-collections": "^0.5.36",
     "@types/lodash": "^4.17.16"
   }
 }

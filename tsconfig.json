@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["esnext", "dom"],
-  }
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "es2015"],     // ✅ Required for Map, Set, etc.
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["./"]
 }
