@@ -34,34 +34,33 @@
 
 // export {};
 
-type User = {
-  readonly _id: string
-  name: string
-  email: string
-  isActive: boolean
-  credcardDetails?: number
-}
+// type User = {
+//   readonly _id: string
+//   name: string
+//   email: string
+//   isActive: boolean
+//   credcardDetails?: number
+// }
 
-let myUser: User = {
-  _id: "1245",
-  name: "h",
-  email: "Brian@gmail.com",
-  isActive: false,
-}
+// let myUser: User = {
+//   _id: "1245",
+//   name: "h",
+//   email: "Brian@gmail.com",
+//   isActive: false,
+// }
 
-type cardNumber = {
-  cardNumber: string
-}
+// type cardNumber = {
+//   cardNumber: string
+// }
 
-type cardDate = {
-  cardDate: string
-}
+// type cardDate = {
+//   cardDate: string
+// }
 
 
-type cardDetails = cardNumber & cardDate & {
-  cvv: number
-}
+// type cardDetails = cardNumber & cardDate & {
+//   cvv: number
+// }
 
-myUser.email = "Brian@studiousfmaily.com";
-//myUser._id = "1234"; // error cause _id is readonly
-
+// myUser.email = "Brian@studiousfmaily.com";
+// //myUser._id = "1234"; // error cause _id is readonly
