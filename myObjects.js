@@ -1,15 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var User = {
-    name: "Brian",
+// // const User = {
+// //   name: "Brian",
+// //   email: "Brian@gmail.com",
+// //   isActive: true,
+// // }
+var myUser = {
+    _id: "1245",
+    name: "h",
     email: "Brian@gmail.com",
-    isActive: true,
+    isActive: false,
 };
-function createUser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
-}
-var newUser = { name: "Brian", isPaid: false, email: "Brian@gmail.com" };
-createUser(newUser);
-function createCourse() {
-    return { name: "reactjs", price: 399 };
-}
+myUser.email = "Brian@studiousfmaily.com";
+//myUser._id = "1234"; // error cause _id is readonly
