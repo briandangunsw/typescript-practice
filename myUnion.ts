@@ -1,45 +1,45 @@
-let score: number | string = 333
+// let score: number | string = 333
 
-score = 44
+// score = 44
 
-score = "55"
+// score = "55"
 
-type User = {
-  name: string;
-  id: number
-}
-
-type Admin = {
-  username: string;
-  id: number;
-}
-
-let Brian: User | Admin = {name: "Brian", id: 123}
-
-Brian = {username: "Ba", id: 334}
-
-// function getDbId(id: number | string) {
-//   // making some API calls.
-//   console.log(`DB id is: ${id}`)
-
+// type User = {
+//   name: string;
+//   id: number
 // }
 
-getDbId(3)
-getDbId("3")
+// type Admin = {
+//   username: string;
+//   id: number;
+// }
 
-function getDbId(id: number | string) {
-  if (typeof id === "string") {
-    id.toLowerCase()
-  }
-}
+// let Brian: User | Admin = {name: "Brian", id: 123}
 
-// array
+// Brian = {username: "Ba", id: 334}
 
-const data: number[] = [1, 2, 3]
-const data2: string[] = ["1", "2", "3"]
-const data3: (string | number | boolean)[] = ["1", "2", 3, true]
+// // function getDbId(id: number | string) {
+// //   // making some API calls.
+// //   console.log(`DB id is: ${id}`)
 
-let seatAllotment: "aisle" | "middle" | "window"
+// // }
 
-seatAllotment = "aisle"
-//seatAllotment = "crew"
+// getDbId(3)
+// getDbId("3")
+
+// function getDbId(id: number | string) {
+//   if (typeof id === "string") {
+//     id.toLowerCase()
+//   }
+// }
+
+// // array
+
+// const data: number[] = [1, 2, 3]
+// const data2: string[] = ["1", "2", "3"]
+// const data3: (string | number | boolean)[] = ["1", "2", 3, true]
+
+// let seatAllotment: "aisle" | "middle" | "window"
+
+// seatAllotment = "aisle"
+// //seatAllotment = "crew"

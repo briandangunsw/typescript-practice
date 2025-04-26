@@ -1,4 +1,4 @@
-const user = { name: "Brian", age: 30}
+// const user = { name: "Brian", age: 30}
 
-console.log("Brian");
-console.log(user.name);
+// console.log("Brian");
+// console.log(user.name);
