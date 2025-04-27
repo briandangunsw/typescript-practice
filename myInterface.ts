@@ -1,8 +1,20 @@
-interface User {
-  readonly dbId: number,
-  email: string,
-  userId: number,
-  googleId?: string,
-}
+// interface User {
+//   readonly dbId: number,
+//   email: string,
+//   userId: number,
+//   googleId?: string,
+//   //startTrail: () => string // a method that returns a string
+//   startTrail(): string // another way to define a method
+//   getCoupon(couponname: string, value: number): number
+// }
 
-const Brian: User = { email: "Brian@gmail.com, userId: 2211" }
+// const Brian: User = { dbId: 22, email: "Brian@gmail.com", userId: 2211, startTrail: () => {
+//   return "trail started"
+// },
+// getCoupon: (name: "Brian", off: 10) => {
+//   return 10
+// }
+// }
+// Brian.email = "B@gmail.com"
+// //Brian.dbId = 33;
+
