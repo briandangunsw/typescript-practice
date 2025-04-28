@@ -10,7 +10,7 @@
 
 class User {
 
-  private _courseCount = 1;
+  protected _courseCount = 1; // private: only accessible in this class, protected: accessible in this class and child classes.
 
   readonly city: string = "Sydney"
   constructor(
@@ -42,6 +42,12 @@ class User {
   }
 }
 
+class SubUser extends User {
+  isFamily: boolean = true;
+  changeCourseCount() {
+    this._courseCount = 4;
+  }
+}
 const Brian = new User("Brian@gmail.com", "Brian");
 //Brian.name
 
